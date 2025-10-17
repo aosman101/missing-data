@@ -26,3 +26,8 @@ Real-world datasets are messy. This notebook shows *why* values go missing, *how
 
 ## Structure
 
+├─ cMissing-Data.ipynb # main lab notebook.
+
+├─ README.md.
+
+└─ (optional) requirements.txt # pin versions if you like.
