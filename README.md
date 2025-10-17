@@ -17,7 +17,7 @@ Real-world datasets are messy. This notebook shows *why* values go missing, *how
 - **Mechanisms**: Missing Completely at Random (MCAR), Missing at Random (MAR), and Missing Not at Random (MNAR).
 - **Detection**: Finding `np.nan`, counting per row/column, computing proportions, and leveraging **NumPy masked arrays** (`np.ma`) for stats like mean/covariance.
 - **Imputation**:
-- - **KNNImputer** for structure-aware fill-in.
+  - - **KNNImputer** for structure-aware fill-in.
 - **IterativeImputer (MICE)** for multiple imputation via chained models (`sample_posterior = True`).
 - **Model impact**: How missingness skews parameters; using **GaussianMixture** to illustrate structure-dependent (MAR) missingness.
 - **Reproducibility**: Seeding simulations; generating multiple imputed datasets.
