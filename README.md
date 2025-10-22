@@ -2,7 +2,7 @@
 
 # Missingness Unmasked
 
-**A hands-on, simulation-driven walkthrough of missing data** — fFrom MCAR, MAR, and MNAR mechanisms to practical detection and imputation using NumPy, masked arrays, and scikit-learn (KNNImputer, Iterative, and MICE).
+**A hands-on, simulation-driven walkthrough of missing data** — From MCAR, MAR, and MNAR mechanisms to practical detection and imputation using NumPy, masked arrays, and scikit-learn, including KNNImputer, Iterative, and MICE methods.
 
 > Notebook: **`Missing-Data.ipynb`**
 
@@ -15,12 +15,12 @@ Real-world datasets often contain inconsistencies. This notebook demonstrates *w
 
 ## What you'll learn
 - **Mechanisms**: Missing Completely at Random (MCAR), Missing at Random (MAR), and Missing Not at Random (MNAR).
-- **Detection**: Identifying `np.nan`, counting values per row and column, computing proportions, and utilizing **NumPy masked arrays** (`np.ma`) for statistical measures like mean and covariance.
+- **Detection**: Identifying `np.nan`, counting values per row and column, computing proportions, and utilising **NumPy masked arrays** (`np.ma`) for statistical measures like mean and covariance.
 - **Imputation**:
-    - **KNNImputer** For a more structured approach to fill-in tasks.
+    - **KNNImputer** For a more organised method of completing fill-in tasks..
 - **IterativeImputer (MICE)** For performing multiple imputation using chained equations (`sample_posterior = True`).
 - **Model impact**: The impact of missing data on statistical parameters: Using **GaussianMixture** to illustrate the effects of structure-dependent (Missing At Random - MAR) missingness.
-- **Reproducibility**: Generating multiple imputed datasets through seeding simulations.
+- **Reproducibility**: Creating several imputed datasets by conducting seeding simulations.
 
 ---
 
@@ -28,6 +28,6 @@ Real-world datasets often contain inconsistencies. This notebook demonstrates *w
 
 ├─ Missing-Data.ipynb # Primary laboratory notebook.
 
-├─ README.md.
+├─ README.md
 
 └─ (optional) requirements.txt # You can choose the pin versions.
